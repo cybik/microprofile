@@ -12,3 +12,4 @@ demo\microprofile.vcxproj.filters
 *.lastbuildstate
 *.o
 *.ipdb
+microprofile.config.h

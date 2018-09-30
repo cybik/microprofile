@@ -1,0 +1,15 @@
+
+#cmakedefine USE_WEBSERVER 1
+#if USE_WEBSERVER
+#define MICROPROFILE_WEBSERVER "@USE_WEBSERVER@"
+#endif
+
+#cmakedefine USE_UI 1
+#if USE_UI
+#define MICROPROFILE_UI "@USE_UI@"
+#endif
+
+#cmakedefine USE_GPUTIMERS 1
+#if USE_GPUTIMERS
+#define MICROPROFILE_GPU_TIMERS "@USE_GPUTIMERS@"
+#endif
