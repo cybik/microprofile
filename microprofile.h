@@ -22,7 +22,7 @@
 //
 // ***********************************************************************
 
-#ifdef MICROPROFILE_USE_CONFIG
+#if defined(MICROPROFILE_USE_CONFIG) || defined(_MICROPROFILE_CMAKE)
 #include "microprofile.config.h"
 #endif
 
